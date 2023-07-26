@@ -1,0 +1,15 @@
+.text {
+    color: white;
+    padding-top: 120px;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.cards-game {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
