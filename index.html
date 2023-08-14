@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="menu" id="menu">
+    <button href="#" class="btn active" onclick="topPage.handlerOpenTop()">
+        <img src="img/game-controller-outline-svgrepo-com.svg" alt="">
+        Top
+    </button>
+    <button href="#" class="btn active" onclick="searchPage.handlerOpenSearch()">
+        <img src="img/search-svgrepo-com.svg" alt="">
+        Search
+    </button>
+    <button href="#" class="btn active" onclick="chatPage.handlerOpenChat()">
+        <img src="img/chat-round-svgrepo-com.svg" alt="">
+        Chat
+    </button>
+    <button href="#" class="btn active" onclick="myGamePage.handlerOpenMyGame()">
+        <img src="img/imac-svgrepo-com.svg" alt="">
+        My game
+    </button>
+</div>
+
+<div id="quiz">
+
+</div>
+<div id="chat" class="hide">
+
+</div>
+
+<div id="top">
+</div>
+
+<div id="search" class="hide">
+    <h1>Search</h1>
+</div>
+
+<div id="myGame">
+</div>
+
+<div class="" id="gameInfo">
+</div>
+
+<div class="loader">
+    <img src="img/GAMEHUB.svg" alt="">
+</div>
+
+<script src="constants/data.js"></script>
+<script src="constants/root.js"></script>
+<script src="utils/localStorage.js"></script>
+<script src="components/Quiz.js"></script>
+<script src="components/Chat.js"></script>
+<script src="components/Top/Top.js"></script>
+<script src="components/GameInfo/GameInfo.js"></script>
+<script src="components/Search/Search.js"></script>
+<script src="components/MyGame/MyGame.js"></script>
+
+
+<script></script>
+</body>
+</html>
